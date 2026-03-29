@@ -1,0 +1,16 @@
+release/almacenamiento_app.o
+release/dialogo_notas.o
+release/dialogo_registro.o
+release/dialogo_trabajo.o
+release/gestor_historial.o
+release/gestor_sesion.o
+release/gestor_trabajos.o
+release/gestor_usuarios.o
+release/inicio_sesion.o
+release/principal.o
+release/widget_principal.o
+release/moc_dialogo_notas.o
+release/moc_dialogo_registro.o
+release/moc_dialogo_trabajo.o
+release/moc_inicio_sesion.o
+release/moc_widget_principal.o
