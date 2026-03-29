@@ -1,6 +1,6 @@
 # 📚 Ejercicios de Programación Orientada a Objetos (POO)
 
-Esta carpeta contiene los ejercicios solicitados para la materia **Programación Orientada a Objetos (POO)**.
+Este repositorio contiene los ejercicios solicitados para la materia **Programación Orientada a Objetos (POO)**.
 
 ## 👥 Integrantes
 
@@ -10,5 +10,5 @@ Esta carpeta contiene los ejercicios solicitados para la materia **Programación
 
 ## 📁 Estructura
 
-Dentro de esta carpeta, cada alumno posee su propia carpeta donde se encuentran sus respectivos ejercicios.
+Dentro de este repositorio, cada alumno posee su propia carpeta donde se encuentran sus respectivos ejercicios.
 
