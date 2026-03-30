@@ -26,6 +26,6 @@ Programar una aplicación en QT que funcione correctamente, tenga una UI usable,
 ### Pantalla Principal
 ![Pantalla Principal](Img/pantalla_principal.png)
 ### Filtro por Prioridad
-![Prioridad](Img/pantalla_principal_filtro_prioridad.png)
+![Prioridad](Img/pantalla_filtro_prioridad.png)
 ### Filtro por Estado
-![Loging](Img/pantalla_principal_filtro_estado.png)
+![Loging](Img/pantalla_filtro_estado.png)
