@@ -19,7 +19,7 @@ Programar una aplicación en QT que funcione correctamente, tenga una UI usable,
 2- Compilar el proyecto
 3- Ejecutar la aplicación
 ## 🏠Arquitectura
-![Arquitectura del sistema](docs/arquitectura.png)
+![Arquitectura del sistema](Img/arquitectura.png)
 ## 📷 Capturas Solicitadas
 ### Loging
 ![Loging](Img/acceso.png)
