@@ -152,15 +152,15 @@ docker compose up
 
 ## ✅ Cumplimiento de requisitos
 
-✔ Aplicación Qt con qmake
-✔ Consumo de endpoint real en VPS
-✔ Visualización de estado y métricas
-✔ Widgets interactivos correctamente utilizados
-✔ Refresco manual y automático configurable
-✔ Historial de eventos
-✔ Clase propia para lógica de monitoreo
-✔ Inspiración en herramientas profesionales
-✔ Uso de Docker y FastAPI en backend
+- ✔ Aplicación Qt con qmake
+- ✔ Consumo de endpoint real en VPS
+- ✔ Visualización de estado y métricas
+- ✔ Widgets interactivos correctamente utilizados
+- ✔ Refresco manual y automático configurable
+- ✔ Historial de eventos
+- ✔ Clase propia para lógica de monitoreo
+- ✔ Inspiración en herramientas profesionales
+- ✔ Uso de Docker y FastAPI en backend
 
 ---
 
