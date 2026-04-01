@@ -1,2 +1,0 @@
-usuario:clara,contraseña:1234;
-usuario:juan,contraseña:abcd;
