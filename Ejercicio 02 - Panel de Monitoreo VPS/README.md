@@ -145,8 +145,8 @@ docker compose up
 
 ## 📂 Estructura del proyecto
 
-Cliente: Todo el proyecto local.
-Servidor: Lo que corre en el VPS (La API).
+- Cliente: Todo el proyecto local.
+- Servidor: Lo que corre en el VPS (La API).
 
 ---
 
