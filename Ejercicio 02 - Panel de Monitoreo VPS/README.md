@@ -1,4 +1,4 @@
-# 🖥️ Panel de Monitoreo VPS - Qt Desktop App
+# 🖥️ Ejercicio 02 - Panel de Monitoreo VPS
 
 ## 📌 Descripción
 
