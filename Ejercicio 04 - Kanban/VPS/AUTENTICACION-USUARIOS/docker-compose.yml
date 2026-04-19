@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  auth-api:
+    build: .
+    container_name: auth-api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+    environment:
+      - DATABASE_URL=mysql+pymysql://user:password@mysql:3306/authdb
+      - SECRET_KEY=supersecretkey
+    networks:
+      - auth-network
+
+  mysql:
+    image: mysql:8
+    container_name: auth-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: authdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - auth-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: auth-phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: user
+      PMA_PASSWORD: password
+    depends_on:
+      - mysql
+    networks:
+      - auth-network
+
+volumes:
+  mysql_data:
+
+
+networks:
+  auth-network:
