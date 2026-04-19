@@ -78,6 +78,167 @@ El backend expone los siguientes endpoints principales:
 
 ---
 
+## 🧾 Formato JSON de los Endpoints
+
+A continuación se muestra el formato de datos que utiliza cada endpoint:
+
+### 🔹 GET /board (Response)
+
+```json
+{
+  "columns": [
+    {
+      "id": 1,
+      "title": "To Do",
+      "position": 0,
+      "cards": [
+        {
+          "id": 10,
+          "title": "Tarea",
+          "description": "Descripción",
+          "position": 0
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+### 🔹 POST /columns (Request)
+
+```json
+{
+  "title": "Nueva columna"
+}
+```
+
+### 🔹 POST /columns (Response)
+
+```json
+{
+  "message": "created"
+}
+```
+
+---
+
+### 🔹 PUT /columns/{column_id} (Request)
+
+```json
+{
+  "title": "Nuevo título"
+}
+```
+
+### 🔹 PUT /columns/{column_id} (Response)
+
+```json
+{
+  "message": "updated"
+}
+```
+
+---
+
+### 🔹 DELETE /columns/{column_id} (Response)
+
+```json
+{
+  "message": "deleted"
+}
+```
+
+---
+
+### 🔹 POST /cards (Request)
+
+```json
+{
+  "title": "Nueva tarjeta",
+  "description": "Detalle",
+  "column_id": 1
+}
+```
+
+### 🔹 POST /cards (Response)
+
+```json
+{
+  "message": "created"
+}
+```
+
+---
+
+### 🔹 PUT /cards/{card_id} (Request)
+
+```json
+{
+  "title": "Nuevo título",
+  "description": "Nuevo detalle",
+  "column_id": 2
+}
+```
+
+### 🔹 PUT /cards/{card_id} (Response)
+
+```json
+{
+  "message": "updated"
+}
+```
+
+---
+
+### 🔹 DELETE /cards/{card_id} (Response)
+
+```json
+{
+  "message": "deleted"
+}
+```
+
+---
+
+### 🔹 POST /cards/{card_id}/move (Request)
+
+```json
+{
+  "to_column_id": 2,
+  "new_position": 0
+}
+```
+
+### 🔹 POST /cards/{card_id}/move (Response)
+
+```json
+{
+  "message": "moved"
+}
+```
+
+---
+
+### 🔹 POST /cards/{card_id}/reorder (Request)
+
+```json
+{
+  "new_position": 1
+}
+```
+
+### 🔹 POST /cards/{card_id}/reorder (Response)
+
+```json
+{
+  "message": "reordered"
+}
+```
+
+---
+
 ## 🎯 Objetivo del Ejercicio
 
 Consolidar el uso de:
