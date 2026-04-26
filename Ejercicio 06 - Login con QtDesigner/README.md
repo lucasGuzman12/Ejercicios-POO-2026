@@ -29,6 +29,13 @@ El objetivo es comprender el flujo de trabajo basado en diseño visual, integran
 En el siguiente video se muestra el desarrollo completo de la aplicación, explicando paso a paso la implementación:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I9VxCxOBO7Q?si=uOMA5TDJNlaBzYYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## 🎥 Demo
+
+<p align="center">
+  <a href="https://www.youtube.com/embed/I9VxCxOBO7Q?si=uOMA5TDJNlaBzYYV">
+    <img src="https://www.youtube.com/embed/I9VxCxOBO7Q?si=uOMA5TDJNlaBzYYV/0.jpg" alt="Video" />
+  </a>
+</p>
 
 > ⚠️ Nota: El video es **no listado** y puede contener pequeños errores de tipeo o explicación debido a que fue grabado en vivo durante el desarrollo.
 
