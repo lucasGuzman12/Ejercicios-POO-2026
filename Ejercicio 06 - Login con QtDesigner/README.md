@@ -29,8 +29,8 @@ El objetivo es comprender el flujo de trabajo basado en diseño visual, integran
 En el siguiente video se muestra el desarrollo completo de la aplicación, explicando paso a paso la implementación:
 
 <p align="center">
-  <a href="https://www.youtube.com/embed/I9VxCxOBO7Q?si=uOMA5TDJNlaBzYYV">
-    <img src="https://www.youtube.com/embed/I9VxCxOBO7Q/0.jpg" alt="Video" />
+  <a href="https://www.youtube.com/watch?v=I9VxCxOBO7Q">
+    <img src="https://img.youtube.com/vi/I9VxCxOBO7Q/0.jpg" alt="Video explicativo"/>
   </a>
 </p>
 
