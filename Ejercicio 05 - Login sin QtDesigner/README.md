@@ -28,7 +28,10 @@ El objetivo es comprender la construcción manual de aplicaciones QT mediante c�
 
 En el siguiente video se muestra el desarrollo completo de la aplicación, explicando paso a paso la implementación:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
-title="Login sin QtDesigner" frameborder="0" allowfullscreen></iframe>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=nkKxXapMv3U">
+    <img src="https://img.youtube.com/vi/nkKxXapMv3U/0.jpg" alt="Video explicativo"/>
+  </a>
+</p>
 
 > ⚠️ Nota: El video es **no listado** y puede contener pequeños errores de tipeo o explicación debido a que fue grabado en vivo durante el desarrollo.
