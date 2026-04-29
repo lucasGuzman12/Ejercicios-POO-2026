@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login con Clima</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Login {
+    background-color: #f3f5f9;
+}
+QFrame#card {
+    background: white;
+    border: 1px solid #dce1ea;
+    border-radius: 14px;
+}
+QLabel#lblTitulo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #12324a;
+}
+QLabel#lblSubtitulo {
+    font-size: 13px;
+    color: #1f3449;
+}
+QLabel {
+    color: #13283b;
+}
+QLineEdit {
+    border: 1px solid #c5cfdb;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+QPushButton {
+    background: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+    font-size: 14px;
+    font-weight: 600;
+}
+QPushButton:disabled {
+    background: #9aa8b9;
+}
+QLabel#lblEstado {
+    color: #6f1414;
+    font-size: 12px;
+}
+QLabel#lblClima, QLabel#lblHora {
+    color: #10293f;
+    font-size: 13px;
+    font-weight: 600;
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="leftMargin">
+    <number>30</number>
+   </property>
+   <property name="topMargin">
+    <number>30</number>
+   </property>
+   <property name="rightMargin">
+    <number>30</number>
+   </property>
+   <property name="bottomMargin">
+    <number>30</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="card">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>24</number>
+      </property>
+      <property name="topMargin">
+       <number>24</number>
+      </property>
+      <property name="rightMargin">
+       <number>24</number>
+      </property>
+      <property name="bottomMargin">
+       <number>24</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lblTitulo">
+        <property name="text">
+         <string>Ingreso al sistema</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblSubtitulo">
+        <property name="text">
+         <string>Usuario por defecto: admin / 1234</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelUsuario">
+        <property name="text">
+         <string>Usuario</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editUsuario"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelPassword">
+        <property name="text">
+         <string>Contrasena</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editPassword">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnIngresar">
+        <property name="text">
+         <string>Ingresar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblEstado">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblClima">
+        <property name="text">
+         <string>Temperatura: -</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lblHora">
+        <property name="text">
+         <string>Hora local: -</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

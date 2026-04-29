@@ -1,0 +1,16 @@
+debug/appflowcontroller.o
+debug/backgrounddownloader.o
+debug/clima.o
+debug/configmanager.o
+debug/logger.o
+debug/login.o
+debug/main.o
+debug/pantalla.o
+debug/ventana.o
+debug/qrc_resources.o
+debug/moc_appflowcontroller.o
+debug/moc_backgrounddownloader.o
+debug/moc_clima.o
+debug/moc_login.o
+debug/moc_pantalla.o
+debug/moc_ventana.o
