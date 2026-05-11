@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <!-- Clase de interfaz generada por Qt Designer para la pantalla de login. -->
+ <class>LoginWidget</class>
+
+ <!-- Widget principal del formulario de ingreso. -->
+ <widget class="QWidget" name="LoginWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ingreso</string>
+  </property>
+
+  <!-- Layout externo que deja margen alrededor de la tarjeta de login. -->
+  <layout class="QVBoxLayout" name="outerLayout">
+   <property name="leftMargin">
+    <number>28</number>
+   </property>
+   <property name="topMargin">
+    <number>28</number>
+   </property>
+   <property name="rightMargin">
+    <number>28</number>
+   </property>
+   <property name="bottomMargin">
+    <number>28</number>
+   </property>
+   <item>
+    <!-- Tarjeta visual que agrupa titulo, campos, boton y mensajes. -->
+    <widget class="QFrame" name="cardFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>24</number>
+      </property>
+      <property name="topMargin">
+       <number>24</number>
+      </property>
+      <property name="rightMargin">
+       <number>24</number>
+      </property>
+      <property name="bottomMargin">
+       <number>24</number>
+      </property>
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <item>
+       <!-- Titulo de la aplicacion. -->
+       <widget class="QLabel" name="lblTitle">
+        <property name="text">
+         <string>Lienzo Local</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <!-- Subtitulo con una indicacion breve para el usuario. -->
+       <widget class="QLabel" name="lblSubtitle">
+        <property name="text">
+         <string>Inicia sesion para cargar tus trazos guardados</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <!-- Separador vertical para mejorar la distribucion visual. -->
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>8</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <!-- Etiqueta del campo de usuario. -->
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Usuario</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <!-- Campo donde se escribe el nombre de usuario. -->
+       <widget class="QLineEdit" name="editUser"/>
+      </item>
+      <item>
+       <!-- Etiqueta del campo de contrasena. -->
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Contrasena</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <!-- Campo de contrasena: Password oculta los caracteres ingresados. -->
+       <widget class="QLineEdit" name="editPass">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <!-- Boton que dispara la validacion del login. -->
+       <widget class="QPushButton" name="btnLogin">
+        <property name="text">
+         <string>Ingresar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <!-- Etiqueta usada para mostrar errores o mensajes de estado. -->
+       <widget class="QLabel" name="lblStatus">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
