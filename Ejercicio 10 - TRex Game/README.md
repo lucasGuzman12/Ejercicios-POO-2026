@@ -136,121 +136,17 @@ Esto permite que el juego sea cada vez más desafiante, manteniendo una experien
 
 ---
 
-## 🧱 Arquitectura
-
-### Clase `TRex`
-
-```cpp id="a2x6n4"
-class TRex : public QWidget
-{
-    Q_OBJECT
-
-public:
-    explicit TRex(QWidget *parent = nullptr);
-
-    void saltar();
-    void agacharse();
-    void adelantarse();
-    void frenarse();
-
-protected:
-    void paintEvent(QPaintEvent *event) override;
-};
-```
-
----
-
-### Clase `Pajaro`
-
-```cpp id="f3t9c5"
-class Pajaro : public QWidget
-{
-    Q_OBJECT
-
-public:
-    explicit Pajaro(QWidget *parent = nullptr);
-    void iniciarMovimiento();
-
-private slots:
-    void mover();
-
-private:
-    QTimer *timer;
-};
-```
-
----
-
-### Clase principal del juego
-
-```cpp id="v8r1s7"
-class Juego : public QWidget
-{
-    Q_OBJECT
-
-public:
-    explicit Juego(QWidget *parent = nullptr);
-
-private slots:
-    void actualizarJuego();
-    void crearPajaro();
-    void reiniciarJuego();
-
-private:
-    QTimer *timerPrincipal;
-};
-```
-
----
-
-## 📦 Organización modular
-
-El proyecto se organiza en clases separadas para facilitar su mantenimiento y crecimiento.
-
-### Componentes principales
-
-* `TRex`
-* `Pajaro`
-* `Cactus`
-* `Juego`
-* `GameOver`
-
----
-
 ## 📂 Estructura del proyecto
 
-```id="q6m2w9"
-/proyecto
-│
-├── main.cpp
-├── Juego.h / Juego.cpp
-├── TRex.h / TRex.cpp
-├── Pajaro.h / Pajaro.cpp
-├── Cactus.h / Cactus.cpp
-│
-├── recursos/
-│   ├── trex.png
-│   ├── pajaro.png
-│   ├── cactus.png
-│   └── game_over.png
-│
-└── README.md
-```
+<img width="240" height="287" alt="image" src="https://github.com/user-attachments/assets/ac270e1f-2018-40cd-ad8e-889912c4eacb" />
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
 * C++
-* Qt Widgets
-* QWidget
-* QImage
-* QPainter
-* QTimer
-* Signals & Slots
-* Eventos de teclado
-* Detección de colisiones
-* Programación orientada a objetos
+* QT
+* GPT Codex
 
 ---
 
@@ -261,31 +157,6 @@ El proyecto se organiza en clases separadas para facilitar su mantenimiento y cr
 3. Compilar el proyecto
 4. Ejecutar el juego
 5. Controlar el dinosaurio con el teclado
-
----
-
-## 📌 Notas
-
-* Cada pájaro posee su propio `QTimer`
-* El `QTimer` principal controla la lógica general del juego
-* Las conexiones se realizan utilizando `connect`
-* Se prioriza una arquitectura modular
-* El juego puede ampliarse fácilmente agregando nuevos obstáculos, sonidos o puntajes
-
----
-
-## 🎯 Objetivo académico
-
-Aplicar conceptos de:
-
-* Programación orientada a objetos
-* Herencia
-* Modularización
-* Manejo de eventos en Qt
-* Uso de `QTimer`
-* Signals & Slots
-* Detección de colisiones
-* Desarrollo de interfaces interactivas
 
 ---
 
